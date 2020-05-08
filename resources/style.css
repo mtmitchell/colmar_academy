@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Header Section*/
@@ -10,10 +11,13 @@ header {
     position: fixed;
     align-items: center;
     width: 100%;
+    background-color: white;
+    z-index: 1;
 }
 
 header img {
     padding-left: 24px;
+    width: auto;
 }
 
 header span {
@@ -39,7 +43,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 70rem;
+    margin-left: 1000px;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -55,8 +59,44 @@ a {
     padding-right: 16px;
 }
 
+/*Learn Something Section*/
 
+#learn-something {
+    position: relative;
+    background-color:rgb(191, 191, 191);
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
 
+#learn-something img {
+    width: 60%;
+    padding: 32px 24px; 
+    margin-top: 64px;
+}
 
+.button {
+    background-color: rgb(64, 64, 64);
+    border: none;
+    color: white;
+    height: 5rem;
+    width: 40rem;
+    font-size: x-large;
+}
 
+#text-button {
+    padding-right: 1em;
+    color: rgb(64, 64, 64);
+}
 
+#text-button h2 {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+#text-button h3 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 2rem;
+}
