@@ -2,6 +2,61 @@ html {
     margin: 0;
 }
 
+/*Header Section*/
+
 header {
     display: flex;
+    height: 64px;
+    position: fixed;
+    align-items: center;
+    width: 100%;
 }
+
+header img {
+    padding-left: 24px;
+}
+
+header span {
+    text-transform: uppercase;
+    height: 32px;
+}
+
+header #colmar {
+    font-weight: bold;
+}
+
+header #academy {
+    color: gray;
+    
+}
+
+nav {
+    padding-right: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 70rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+a {
+    color: slategrey; 
+}
+
+
+.on-campus, .online, .for-companies {
+    padding-right: 16px;
+}
+
+
+
+
+
+
