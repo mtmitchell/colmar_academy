@@ -13,7 +13,6 @@ header {
     width: 100%;
     background-color: white;
     z-index: 1;
-    
 }
 
 header img {
@@ -49,12 +48,11 @@ nav ul {
     flex-wrap: nowrap;
 }
 
-
-
 a {
     color: slategrey; 
+    text-decoration: none;
+    font-size: 1.1vw;
 }
-
 
 .on-campus, .online, .for-companies {
     padding-right: 16px;
@@ -68,7 +66,6 @@ a {
     width: 100%;
     display: flex;
     align-items: center;
-  
 }
 
 #learn-something img {
@@ -99,6 +96,29 @@ a {
 }
 
 #text-button h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5vw;
+}
+
+/*Online Section*/
+
+#online {
+display: flex;
+}
+
+.practice {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+    color: rgb(64, 64, 64);
+}
+
+.practice img {
+    width: 50vw;
+    
+}
+
+.practice h2 {
+    font-size: 3vw;
 }
