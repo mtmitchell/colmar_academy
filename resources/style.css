@@ -13,6 +13,7 @@ header {
     width: 100%;
     background-color: white;
     z-index: 1;
+    
 }
 
 header img {
@@ -36,6 +37,7 @@ header #academy {
 
 nav {
     padding-right: 24px;
+    margin-left: auto;
 }
 
 nav ul {
@@ -43,7 +45,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 1000px;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -65,8 +66,9 @@ a {
     position: relative;
     background-color:rgb(191, 191, 191);
     width: 100%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+  
 }
 
 #learn-something img {
@@ -80,23 +82,23 @@ a {
     border: none;
     color: white;
     height: 5rem;
-    width: 40rem;
-    font-size: x-large;
+    width: 80%;
+    font-size: 1.5vw;
 }
 
 #text-button {
     padding-right: 1em;
     color: rgb(64, 64, 64);
+    width:35%;
 }
 
 #text-button h2 {
-    text-transform: capitalize;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3vw;
+    flex-shrink: inherit;
 }
 
 #text-button h3 {
-    text-transform: capitalize;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5vw;
 }
