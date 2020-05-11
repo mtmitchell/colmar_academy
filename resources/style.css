@@ -190,15 +190,51 @@ display: flex;
 
 #learning {
     text-align: center;
-    padding: 32px 0px;
     font-size: 1.25vw;
     color: rgb(64, 64, 64);
+    padding: 32px 0px;
+}
+
+#learning h1 {
+    margin: 0px;
+}
+
+#panels-courses {
+   
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .courses {
     background-color: white;
-    display: inline-block;
+    margin-bottom: 32px;
+    width: 27%;
+}
+
+.courses img{
+    height: auto;
+    width: 100%;
+}
+
+
+.courses h3, .courses h5 {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px;
     flex-wrap: wrap;
+}
+
+.courses h3 {
+    color: rgb(64, 64, 64);
+    font-size: 1.75vw;
+}
+
+.courses h5 {
+    color: rgb(161, 161, 161);
+    font-weight: 400;
+    font-size: 0.9vw;
+    margin-bottom: 24px;
 }
 
 .uppercase {
@@ -207,4 +243,9 @@ display: flex;
 
 .capitalize {
     text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#software, #computer-art, #design, #data, #business, #marketing {
+    margin-right: 32px;
 }
