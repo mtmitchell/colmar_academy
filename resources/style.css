@@ -112,7 +112,7 @@ display: flex;
     justify-content: center;
     padding: 32px 24px;
     color: rgb(64, 64, 64);
-   border-right: 1px solid rgb(191, 191, 191);
+    border-right: 1px solid rgb(191, 191, 191);
 }
 
 .practice img {
@@ -124,6 +124,7 @@ display: flex;
     font-size: 3vw;
     padding-bottom: 24px;
     width: 50vw;
+    font-weight: 700;
 }
 
 .practice h3 {
@@ -141,7 +142,6 @@ display: flex;
 
 .side-panels {
     width: 40%;
-    
 }
 
 .side-panels .orientation, .side-panels .our-campus, .side-panels .guest-lecture {
@@ -161,4 +161,23 @@ display: flex;
 #support-text {
     width: 65%;
     margin: auto;
+}
+
+#support-text h4 {
+    font-size: 2vw;
+    color: rgb(64, 64, 64);
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+#support-text h6 {
+    font-size: 1vw;
+    color: rgb(64, 64, 64);
+    margin: 0;
+    padding-bottom: 8px;
+    font-weight: 300;
+}
+
+#support-text a {
+    color:  rgb(64, 129, 219);
 }
