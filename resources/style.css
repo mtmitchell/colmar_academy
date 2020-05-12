@@ -15,7 +15,7 @@ header {
     z-index: 1;
 }
 
-header img {
+header #logo {
     padding-left: 24px;
     width: auto;
 }
@@ -342,12 +342,27 @@ footer a {
     font-size: 0.9vw;
 }
 
+/*Mobile design*/
+
 @media only screen and (max-width: 812px) {
-    html {
+
+    header h1, header ul {
         display: none;
     }
-}
+
+    header {
+        position: relative;
+        display: flex;
+    }
+
+    header a {
+        margin: auto;
+    }
+
 
 @media only screen and (min-width: 812px) {
-    
+
+    #on-campus, #online, #login {
+        display: none;
+    }
 }
