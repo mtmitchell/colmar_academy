@@ -341,3 +341,13 @@ display: flex;
 footer a {
     font-size: 0.9vw;
 }
+
+@media only screen and (max-width: 812px) {
+    html {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 812px) {
+    
+}
