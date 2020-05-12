@@ -346,6 +346,8 @@ footer a {
 
 @media only screen and (max-width: 812px) {
 
+    /*header section*/
+
     header h1, header ul {
         display: none;
     }
@@ -359,6 +361,43 @@ footer a {
         margin: auto;
     }
 
+    /*Learn something section*/
+
+    #learn-something {
+        display: block;
+    }
+
+    #learn-something img {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    #learn-something #text-button {
+        margin-left: 16px;
+        width: 100%;
+        margin-top: 32px;
+        padding-right: 0;
+    }
+
+    #learn-something h2 {
+        font-size: 8vw;
+        margin-bottom: 32px;
+    }
+
+    #learn-something h3 {
+        font-size: 5vw;
+        margin-bottom: 24px;
+    }
+
+    #learn-something button {
+        font-size: 5vw;
+        height: 10vw;
+        margin-bottom: 32px;
+        align-items: center;
+    }
+    
+}
 
 @media only screen and (min-width: 812px) {
 
