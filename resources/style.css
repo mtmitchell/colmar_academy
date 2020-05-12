@@ -316,3 +316,22 @@ display: flex;
     color: rgb(136, 136, 136);
     font-weight: 500;
 }
+
+/*Footer Section*/
+
+#footer {
+    display: flex;
+    align-items: center;
+}
+
+#footer i {
+    margin-left: 24px;
+}
+
+#footer #terms {
+   float: right;
+}
+
+#privacy {
+    margin-left: auto;
+}
