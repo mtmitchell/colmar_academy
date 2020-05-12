@@ -322,16 +322,22 @@ display: flex;
 #footer {
     display: flex;
     align-items: center;
+    border-top: 1px solid gray;
 }
 
 #footer i {
     margin-left: 24px;
+    margin-right: 10px;
 }
 
 #footer #terms {
-   float: right;
+   margin-left: auto;
 }
 
-#privacy {
-    margin-left: auto;
+#privacy { 
+    margin-left: 10px;
+}
+
+footer a {
+    font-size: 0.9vw;
 }
