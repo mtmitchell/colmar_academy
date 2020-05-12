@@ -484,6 +484,23 @@ footer a {
     #courses-buttons #marketing-button {
         margin-bottom: 32px;
     }
+
+    /*Thesis Section*/
+
+    .reimagine-text, .side-thesis {
+        display: none;
+    }
+
+    #thesis-exhibit {
+        font-size: 4.5vw;
+        color: rgb(70, 70, 70);
+        font-weight: 700;
+    }
+
+    .reimagine-urban video {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 812px) {
