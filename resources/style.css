@@ -501,6 +501,12 @@ footer a {
         width: 100%;
         margin: 0;
     }
+
+    /*footer section*/
+
+    footer #terms, footer #privacy{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 812px) {
