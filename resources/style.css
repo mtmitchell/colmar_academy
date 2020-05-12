@@ -355,6 +355,7 @@ footer a {
     header {
         position: relative;
         display: flex;
+        width: 100%;
     }
 
     header a {
@@ -383,6 +384,7 @@ footer a {
     #learn-something h2 {
         font-size: 8vw;
         margin-bottom: 32px;
+        width: 90%;
     }
 
     #learn-something h3 {
@@ -396,12 +398,60 @@ footer a {
         margin-bottom: 32px;
         align-items: center;
     }
-    
+
+    /*Online section*/
+
+    .practice {
+        display: none;
+    }
+
+    .side-panels {
+        width: 100%;
+    }
+
+    #orientation-desktop, #campus-desktop, #guest-desktop, #lecture-desktop {
+        display: none;
+    }
+
+    .side-panels .orientation, .side-panels .our-campus, .side-panels .guest-lecture {
+        display: block;
+        width: 100%;
+        background-color: white;
+    }
+
+    #orientation-mobile, #campus-mobile, #guest-mobile {
+        width: 90%;
+    }
+
+    #support-text {
+        margin-left: 32px;
+    }
+
+    #support-text h4 {
+        font-size: 6vw;
+    }
+
+    #support-text h6 {
+        font-size: 3.5vw;
+    }
+
+    #support-text a {
+        font-size: 3.5vw;
+    }
+
+    .orientation, .our-campus {
+        margin-bottom: 64px;
+    }
+
+    .guest-lecture {
+        margin-bottom: 32px;
+    }
 }
 
 @media only screen and (min-width: 812px) {
 
-    #on-campus, #online, #login {
+    #on-campus, #online-mobile, #login, #orientation-mobile, #campus-mobile, #guest-mobile, #lecture-mobile {
         display: none;
     }
+
 }
