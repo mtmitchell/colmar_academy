@@ -446,11 +446,49 @@ footer a {
     .guest-lecture {
         margin-bottom: 32px;
     }
+
+    #online {
+        border-bottom: 1px solid gray;
+    }
+
+    /*Start learning section*/
+
+    .start-learning {
+        background-color: white;
+        border-bottom: 1px solid gray;
+    }
+
+    #panels-courses{
+        display: none;
+    }
+
+    #learning {
+        font-size: 5vw;
+    }
+
+    #courses-buttons button {
+        display: block;
+        margin: auto;
+        width: 90%;
+        background-color: rgb(211, 211, 211);
+        margin-bottom: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding: 16px 0px 24px 16px;
+        font-size: 5vw;
+        font-weight: 600;
+        color: rgb(88, 88, 88);
+        border: none;
+    }
+
+    #courses-buttons #marketing-button {
+        margin-bottom: 32px;
+    }
 }
 
 @media only screen and (min-width: 812px) {
 
-    #on-campus, #online-mobile, #login, #orientation-mobile, #campus-mobile, #guest-mobile, #lecture-mobile {
+    #on-campus, #online-mobile, #login, #orientation-mobile, #campus-mobile, #guest-mobile, #lecture-mobile, #courses-buttons {
         display: none;
     }
 
